@@ -1,0 +1,28 @@
+
+---
+
+## 🛠️ Prerequisites
+
+Make sure you have:
+
+- 🐍 Python 3.9+
+- 🐳 Docker installed
+- 🎧 A working microphone (for voice input)
+
+---
+
+## 🔧 Installation (Without Docker)
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/voicebot-ai.git
+cd voicebot-ai
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Create a .env file and add your keys
+cp .env.example .env
+
+# Run the app
+streamlit run voice.py
